@@ -70,3 +70,100 @@ button {
     padding: 4px 20px;
     border-radius: 5px;
 }
+
+.content {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+
+.card-group {
+    display: flex;
+    gap: 30px;
+    padding-bottom: 30px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 170px;
+}
+h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    margin-bottom: 25px;
+}
+
+.item {
+    width: 150px;
+    height: 150px;
+    border: 2px solid #3882F6;
+    border-radius: 10px;
+}
+
+.content p {
+    color: #1F2937;
+    margin-top: 10px;
+}
+
+.testimonial {
+    background-color: #E5E7EB;
+    padding: 50px 170px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h3 {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    color: #1F2937;
+}
+
+.testimonial p {
+    color: #1F2937;
+    font-weight: 700;
+    align-self: flex-end;
+}
+
+.call {
+    height: 300px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: #3882F6;
+    width: 700px;
+    border-radius: 5px;
+    padding: 30px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+.container p {
+    font-size: 16px;
+    margin-bottom: 0;
+}
+
+.container button {
+    border: 2px solid white;
+}
+
+footer {
+    padding: 20px 0;
+    text-align: center;
+}
